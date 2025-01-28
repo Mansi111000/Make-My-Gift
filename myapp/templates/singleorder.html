@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Best Store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Best Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href=" {% static 'css/bootstrap.css' %} " rel="stylesheet" type="text/css" media="all" />
+<link href=" {% static 'css/style.css' %} " rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src=" {% static 'js/jquery.min.js' %} "></script>
+<!-- //js -->
+<!-- cart -->
+<script src=" {% static 'js/simpleCart.min.js' %} "></script>
+<!-- cart -->
+<!-- for bootstrap working -->
+<script type="text/javascript" src=" {% static 'js/bootstrap-3.1.1.min.js' %} "></script>
+<!-- //for bootstrap working -->
+<link href=' {% static '//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' %} ' rel='stylesheet' type='text/css'>
+<link href=' {% static '//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' %} ' rel='stylesheet' type='text/css'>
+<!-- timer -->
+<link rel="stylesheet" href=" {% static 'css/jquery.countdown.css' %} " />
+<!-- //timer -->
+<!-- animation-effect -->
+<link href=" {% static 'css/animate.min.css' %} " rel="stylesheet">
+<script src=" {% static 'js/wow.min.js' %} "></script>
+<script>
+ new WOW().init();
+</script>
+<!-- //animation-effect -->
+</head>
+
+<body>
+{% if messages %}
+{% for msg in messages %}
+<script>alert("{{ msg }}");</script>
+{% endfor %}
+{% endif %}
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-grid">
+				<div class="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
+					<ul>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="  ">makemygift@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
+						<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="/login ">Login</a></li>
+						<li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href=" {% url 'register.html' %} ">Register</a></li>
+					</ul>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+			<div class="logo-nav">
+				<div class="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
+					<h1><a href=" {% url 'index.html' %} ">Make My Gift <span>For your loved ones</span></a></h1>
+				</div>
+				<div class="logo-nav-left1">
+					<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header nav_2">
+						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href=" {% url 'index.html' %} " class="act">Home</a></li>
+							<!-- Mega Menu -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Category <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<div class="row">
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="/categorywiseproduct/11">New Year</a></li>
+												<li><a href="/categorywiseproduct/10">Navaratri</a></li>
+												<li><a href="/categorywiseproduct/9 ">Wedding Anniversary</a></li>
+												<li><a href="/categorywiseproduct/8">Baby Shower</a></li>
+
+
+											</ul>
+										</div>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="/categorywiseproduct/6 ">Birthday</a></li>
+												<li><a href="/categorywiseproduct/5 ">Christmas</a></li>
+												<li><a href=" /categorywiseproduct/4 ">Diwali</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="/categorywiseproduct/3 ">Raksha-Bandhan</a></li>
+												<li><a href="/categorywiseproduct/2 ">Holi</a></li>
+												<li><a href="/categorywiseproduct/1 ">Uttarayan</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								</ul>
+							</li>
+							<li><a href=" {% url 'mail.html' %} ">Contact Us</a></li>
+							<li><a href=" {% url 'orderpage' %} ">Your Orders</a></li>
+
+
+						</ul>
+					</div>
+					</nav>
+				</div>
+				<div class="logo-nav-right">
+					<div class="search-box">
+						<div id="sb-search" class="sb-search">
+							<form>
+
+							</form>
+						</div>
+					</div>
+						<!-- search-scripts -->
+						<script src=" {% static 'js/classie.js' %} "></script>
+						<script src=" {% static 'js/uisearch.js' %} "></script>
+							<script>
+								new UISearch( document.getElementById( 'sb-search' ) );
+							</script>
+						<!-- //search-scripts -->
+				</div>
+				<div class="header-right">
+					<div class="cart box_1">
+						<a href=" {% url 'checkout.html' %} ">
+							<h3> <div class="total">
+
+								Cart:<img src=" {% static 'images/bag.png' %} " alt="" />
+							</h3>
+						</a>
+
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- breadcrumbs -->
+	<div class="breadcrumbs">
+		<div class="container">
+			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+				<li><a href=" {% url 'index.html' %} "><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">Checkout Page</li>
+			</ol>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+<!-- checkout -->
+	<div class="mail animated wow zoomIn" data-wow-delay=".5s">
+		<div class="container">
+			<h3>Order Details</h3>
+		</div>
+	</div>
+		<div class="clearfix"> </div>
+		<div class="container">
+				<table class="timetable_sub">
+					<thead>
+						<tr>
+							<th>SL No</th>
+							<th>User id</th>
+							<th>Product Name</th>
+							<th>Order Total Price</th>
+							<th>Quantity</th>
+							<th>Total Amount</th>
+							<th>View Details</th>
+						</tr>
+					</thead>
+                    {% for i in data %}
+					<tr class="rem1">
+						<td class="invert">{{ forloop.counter }}</td>
+						<td class="invert-image"><img src="/media/{{ i.product_id.product_image }}" alt=" " class="img-responsive" height="50px" width="50px" /></td>
+						<td class="invert">{{ i.product_id.product_name }}</td>
+						<td class="invert">{{ i.product_id.product_price }}</td>
+						<td class="invert">{{ i.product_quantity }}</td>
+						<td class="invert">{{ i.totalprice }}</td>
+						<td class="invert"><a href="/delete/{{ i.id }}">Remove</a></td>
+					</tr>
+					{% endfor %}
+								<!--quantity-->
+				</table>
+			</div>
+			<br/>
+<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
+					<h3>About Us</h3>
+					<p>  Make my gift is our website that serves the purpose that a user can customize his/her gift hampers. It provides gift hampers for function and any other occasion. <span>Now days it is not much possible for customer to by a hamper according  to their choice so  here we  provide user friendly platform where customer can easily make own choice in affordable price.</span></p>
+				</div>
+				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
+					<h3>Contact Info</h3>
+					<ul>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href=" {% static 'mailto:info@example.com' %} ">makemygift@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-logo animated wow slideInUp" data-wow-delay=".5s">
+				<h2><a href=" {% url 'index.html' %} ">Make My Gift <span>For your loved ones</span></a></h2>
+			</div>
+			<div class="copy-right animated wow slideInUp" data-wow-delay=".5s">
+
+			</div>
+		</div>
+	</div>
+
+
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    // Select hamper on image click
+    function selectHamper(image) {
+      const selectedHamperId = image.dataset.hamperId;
+      const selectedHamperInput = document.getElementById('selected_hamper_id');
+      const selectedCard = image.closest('.card');
+
+      // Remove selection from all cards
+      const allCards = document.querySelectorAll('.card');
+      allCards.forEach(card => {
+        card.classList.remove('selected-hamper');
+      });
+
+      if (selectedHamperId === selectedHamperInput.value) {
+        // Deselect the currently selected hamper
+        selectedHamperInput.value = "";
+      } else {
+        // Select the clicked hamper
+        selectedHamperInput.value = selectedHamperId;
+        selectedCard.classList.add('selected-hamper');
+      }
+    }
+  </script>
+<!-- //footer -->
+</body>
+</html>
