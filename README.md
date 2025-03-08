@@ -1,7 +1,5 @@
 # 🎁 Make-My-Gift  
-
-![Make-My-Gift Logo](media/photos/logo.png)  
-
+ 
 ## 📌 Table of Contents  
 
 - [📖 Introduction](#-introduction)  
@@ -120,7 +118,7 @@ For any inquiries or feedback, feel free to reach out:
 ---
 
 🎊 **Thank you for using Make-My-Gift! We hope it helps you make every occasion special.** 🎊  
-```
+
 
 
 
