@@ -49,56 +49,6 @@ Follow these steps to set up the project locally:
 
 Here’s the **README.md** file content in markdown format:  
 
-```md
-# 🎁 Make-My-Gift  
-
-![Make-My-Gift Logo](media/photos/logo.png)  
-
-## 📌 Table of Contents  
-
-- [📖 Introduction](#-introduction)  
-- [✨ Features](#-features)  
-- [🛠️ Technologies Used](#-technologies-used)  
-- [🚀 Installation](#-installation)  
-- [📝 Usage](#-usage)  
-- [🤝 Contributing](#-contributing)  
-- [📜 License](#-license)  
-- [📧 Contact](#-contact)  
-
-## 📖 Introduction  
-
-**Make-My-Gift** is a user-friendly web application designed to simplify the process of selecting and sending gifts. Whether you're celebrating a birthday, anniversary, or any special occasion, Make-My-Gift helps you find the perfect gift with ease. 🎉  
-
-## ✨ Features  
-
-✅ **Curated Gift Selection** – Browse through a variety of gifts for different occasions.  
-✅ **User-Friendly Interface** – A smooth and intuitive design for easy navigation.  
-✅ **Secure Transactions** – Payments are encrypted and safe. 🔒  
-✅ **Personalized Messages** – Customize gifts with a heartfelt message. 💌  
-✅ **Order Tracking** – Stay updated with real-time tracking. 🚚  
-
-## 🛠️ Technologies Used  
-
-### 🌐 Frontend:  
-- HTML  
-- CSS  
-- JavaScript  
-
-### 🖥️ Backend:  
-- Python  
-
-### 🗄️ Database:  
-- SQLite  
-
-## 🚀 Installation  
-
-Follow these steps to set up the project locally:  
-
-1. **Clone the repository:**  
-
-   ```bash
-   git clone https://github.com/Mansi111000/Make-My-Gift.git
-   ```  
 
 2. **Navigate to the project directory:**  
 
@@ -165,24 +115,13 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 For any inquiries or feedback, feel free to reach out:  
 
 - **GitHub:** [Mansi111000](https://github.com/Mansi111000)  
-- **Email:** [mansi@example.com](mailto:mansi@example.com) *(Replace with actual email)*  
+- **Email:** [mansithakkar1123@gmail.com](mailto:mansi@example.com) 
 
 ---
 
 🎊 **Thank you for using Make-My-Gift! We hope it helps you make every occasion special.** 🎊  
 ```
 
-### 📌 How to Save This as `README.md`  
 
-1. Open your text editor (VS Code, Notepad++, Sublime, etc.).  
-2. Copy the content above and paste it into a new file.  
-3. Save it as `README.md`.  
-4. Add it to your repository by running:  
-
-   ```bash
-   git add README.md
-   git commit -m "Added structured README file"
-   git push origin main  # Change 'main' to the correct branch if needed
-   ```
 
 
